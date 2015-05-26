@@ -1,0 +1,12 @@
+<form action="/Bmi" method="get">
+  <label for="first_b">Weight in Kilos</label>
+  <input type="text" name="first_b" placeholder="Enter the first number">
+  <label for="second_b">Height in meters</label>
+  <input type="text" name="second_b" placeholder="Enter the second number">
+  <input type="submit"/> 
+</form>
+
+
+<% if @result_b %>
+  <p>The result of <%= @first_b %> <%= @second_b %> is: <%= @result_b %></p>
+<% end %>

@@ -1,0 +1,35 @@
+li {
+  padding: 10px;
+  border: dotted white 2px;
+  display: inline-block;
+}
+
+li a {
+color: gray;
+font-size: 18px;
+font-family: sans-serif;
+font-weight: bold;
+text-decoration: none;
+
+}
+
+nav {
+  text-align: center;
+  padding-top: 20px;
+}
+
+body {
+  background-color: lightblue;
+}
+
+li a:hover {
+  color:orange;
+}
+
+form {
+  display: inline-block;
+  padding-top: 60px;
+  padding-left: 280px;
+  text-align: center;
+  font-family: sans-serif;
+}

@@ -1,0 +1,10 @@
+<form action="/square_root" method="get">
+  <label for="first_r">First Number</label>
+  <input type="text" name="first_r" placeholder="Enter the first number">
+  <input type="submit"/> 
+</form>
+
+
+<% if @result_r %>
+  <p>The result of <%= @first_r %> is: <%= @result_r %></p>
+<% end %>

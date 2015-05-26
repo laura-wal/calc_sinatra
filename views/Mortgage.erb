@@ -1,0 +1,14 @@
+<form action="/Mortgage" method="get">
+  <label for="first_m">Principle</label>
+  <input type="text" name="first_m" placeholder="Enter the first number">
+  <label for="second_m">Yearly interest rate</label>
+  <input type="text" name="second_m" placeholder="Enter the second number">
+  <label for="third_m">Number of payments</label>
+  <input type="text" name="third_m" placeholder="Enter the third number">
+  <input type="submit"/> 
+</form>
+
+
+<% if @result_tt %>
+  <p>The result of is: <%= @result_tt %></p>
+<% end %>
